@@ -10,3 +10,7 @@ print("Student Name:",name)
 print("Attendence:%.2f" %Attendence,"%")
 Average = (Total) / 4
 print("Averge:%.2f" %Average,"%")
+
+
+if marks1>marks 2
+    print(marks 1)
