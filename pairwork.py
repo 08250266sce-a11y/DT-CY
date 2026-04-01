@@ -10,19 +10,23 @@ print("Student Name:",name)
 print("Attendence:%.2f" %Attendence,"%")
 Average = (Total) / 4
 print("Averge:%.2f" %Average,"%")
-if (Average >= 50 and Attendence >=90):
+if (100>Average>= 40 and 100>Attendence>=90 and 100>marks1>=40 and 100>marks2>=40 and 100>marks3>=40 and 100>marks4>=40):
     print("Statuts: Pass")
 else:
-    print("Status: Fail")
-if (Average>=90 and Attendence>=90):
+    print("There is an error in entering marks! try again")
+    print()
+    quit()
+if (100>Average>=90 and 100>Attendence>=90):
     print("Grade:A[Excellent]")
-elif(Average>=80 and Attendence>=90):
+elif(100>Average>=80 and 100>Attendence>=90):
     print("Grade:B[v.Good]")
-elif(Average>=70 and Attendence>=90):
+elif(100>Average>=70 and 100>Attendence>=90):
     print("Grade:C[Good]")
-elif(Average>=60 and Attendence>=90):
+elif(100>Average>=60 and 100>Attendence>=90):
     print("GRade:D")
-if (Average>=90 and Attendence>=90):
+elif(Average>100):
+    print("grade error! try again")
+if (100>=Average>=90 and 100>=Attendence>=90):
     print("You are Eligible for reward")
 else:
-    print("No Reward")
+    print("you are not Eligible for Reward")
